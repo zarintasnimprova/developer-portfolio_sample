@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-primary {
+    color: #7F0622;
+}
+
+.text-primary-2{
+    color: #b61238;
+}
+
+.btn-primary{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #b61238;
+    border: 0;
+}
+
+.header{
+    background-image: url(../images/developer.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/* header and nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* banner */
+
+.banner{
+    margin: 0 150px;
+    display: flex;
+    align-items: center; 
+
+}
+.banner-sub-title{
+    color:  #474747;
+font-size: 40px;
+font-weight: 600;
+line-height: normal;
+}
+
+.banner-title{
+    color: #181818; 
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-paragraph{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+font-size: 35px;
+font-weight: 700;
+line-height: normal;
+}
+
+.section-paragraph{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+} 
+
+.about-info-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.about .info-title{
+    color:  #757575;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.about .info-description{
+    color:  #474747;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+}
